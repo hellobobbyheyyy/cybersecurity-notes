@@ -56,5 +56,10 @@ MAC spoofing is the act of changing a device’s MAC address to impersonate anot
 ## Summary
 
 - IP Address: Identifies a device on a network for communication (logical)
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 - MAC Address: Identifies the physical device on a network (hardware)
 - MAC Spoofing: Technique used to impersonate another device by altering the MAC address
