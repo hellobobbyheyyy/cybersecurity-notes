@@ -1,25 +1,60 @@
-IP Address - internet prtocol
-used as a way to idenify a host on a network for a period of  time, where the ip is involved with another devices without the ip itself changing
+# Networking Fundamentals
 
-it contains 4 octets
+---
 
-each summarizes the ip address on the network
+## IP Address (Internet Protocol)
 
-ip address can changed from device to device but can't be active at the same time if on the same network
+An IP address is a logical identifier used to identify a device on a network during communication.
 
-public - used to identify device on internet
+### Key Points
+- IPv4 addresses consist of 4 octets (e.g., 192.168.1.1)
+- Each octet ranges from 0 to 255
+- IP addresses can be static (fixed) or dynamic (change over time)
+- Two devices cannot use the same IP address on the same network at the same time
 
-private - used to identify a device with other devices.
---------------------------------------------------------------------------------------
+### Types of IP Addresses
 
-Mac addresses -  media access control
+Public IP:
+- Used to identify a device on the internet
+- Assigned by an Internet Service Provider (ISP)
+- Must be globally unique
 
-12 character hex number(used in computing to show numbers)
+Private IP:
+- Used within local networks (home, office, internal systems)
+- Not accessible directly from the internet
+- Common ranges include:
+  - 192.168.x.x
+  - 10.x.x.x
+  - 172.16–31.x.x
 
-it splits into two and seperated by a colon
+---
 
-the first si represent the company that made the network
+## MAC Address (Media Access Control)
 
-last six is just its own unique number.
+A MAC address is a physical identifier assigned to a network interface card (NIC).
 
-spoofing - when one uses another mac address in it attempts seem like its the address or so said pretending)
+### Key Points
+- Consists of 12 hexadecimal characters (e.g., 00:1A:2B:3C:4D:5E)
+- The first 6 characters represent the manufacturer (OUI)
+- The last 6 characters uniquely identify the device
+- Used for communication within a local network (Layer 2)
+
+---
+
+## MAC Spoofing
+
+MAC spoofing is the act of changing a device’s MAC address to impersonate another device.
+
+### Common Uses
+- Bypassing network restrictions
+- Impersonating trusted devices
+- Privacy or anonymity
+- Security testing (ethical hacking)
+
+---
+
+## Summary
+
+- IP Address: Identifies a device on a network for communication (logical)
+- MAC Address: Identifies the physical device on a network (hardware)
+- MAC Spoofing: Technique used to impersonate another device by altering the MAC address
