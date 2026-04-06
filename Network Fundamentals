@@ -179,4 +179,6 @@ Host address - ip address here is used to identify a device on the subnet
 
 default gateway - is a special address assigned to a device on the network that is capable of sending info to another network
 
-
+---------------------------------
+ICMP - internet control message protocol
+packets determine the performance of a connection between devices.
