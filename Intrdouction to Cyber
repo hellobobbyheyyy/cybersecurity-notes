@@ -1,37 +1,95 @@
-Offensive Security -  Thinking like a hacker, finding the weaknesses before hackers
-Defensive Security -  process of defending and securing systems and phyiscal devices.
+# Cybersecurity Fundamentals
 
-SOC - Securit operations Center- team of IT professinals with a goal of monitoring , preventing and detecting to threas within a company
-------------------------------------------------------------------------------------
+---
 
-Cyber security career -
-High Demand - 3.5 mill
-Strong Salaries - competitive pay at entry level
-constant learning - evolves quickly
--------------------------------------------------------------------------------
+## Offensive Security
 
-Security Analysis
+Offensive Security involves thinking like an attacker to identify and exploit vulnerabilities before malicious actors can.
 
-Blue Team - comprises cyber security and professionals who aim to protect information systems from threats by implying defensive actions
+- Focuses on finding weaknesses in systems
+- Simulates real-world attacks
+- Helps organizations understand their risk exposure
 
+---
 
-looking/ investigating sus activity,  piecing bits of infromation to understand what happened as a whole.
+## Defensive Security
 
---------------------
+Defensive Security focuses on protecting systems, networks, and devices from attacks.
 
-Security Engineering
+- Implements security controls and protections
+- Monitors systems for suspicious activity
+- Responds to and mitigates threats
 
-maintains and builds the overall foundation of the systems and processes that protect the organzations network and devices
+---
 
-IDS - intrusion deection system - system that detects unathorsed network ad system intrusions.
+## SOC (Security Operations Center)
 
-overall, their job is keepin the security foundation went maintained and well. looking over any holes.
+A Security Operations Center (SOC) is a team of cybersecurity professionals responsible for monitoring, detecting, and responding to threats within an organization.
 
---------------------
+### Responsibilities
+- Monitor network and system activity
+- Detect and analyze threats
+- Respond to security incidents
+- Prevent future attacks
 
-Penetration Testing
+---
 
-their job is to verify how safe a company systems/netowrk really is by saftely breaking into them(obviously with boundaries and authrizatin by said company)
-------------------------------------------------------------------------------------------------------------------------------------
+## Cybersecurity Careers
 
+- High Demand:
+  - Over 3.5 million unfilled cybersecurity jobs globally
 
+- Strong Salaries:
+  - Competitive pay, even at entry level
+
+- Constant Learning:
+  - The field evolves rapidly, requiring ongoing education
+
+---
+
+## Security Analyst (Blue Team)
+
+Security Analysts are part of the Blue Team and focus on defending systems from threats.
+
+### Responsibilities
+- Monitor logs and alerts for suspicious activity
+- Investigate incidents and anomalies
+- Analyze data to understand security events
+- Escalate or respond to threats as needed
+
+---
+
+## Security Engineer
+
+Security Engineers design, build, and maintain the systems that protect an organization.
+
+### Responsibilities
+- Develop and implement security infrastructure
+- Identify and fix vulnerabilities
+- Maintain and improve security systems
+- Ensure systems are properly secured and updated
+
+### IDS (Intrusion Detection System)
+A system that monitors network or system activity and detects unauthorized or suspicious behavior.
+
+---
+
+## Penetration Tester (Ethical Hacker)
+
+A Penetration Tester evaluates the security of systems by simulating real-world attacks in a controlled and authorized environment.
+
+### Responsibilities
+- Identify vulnerabilities by actively testing systems
+- Exploit weaknesses to demonstrate risk
+- Document findings and provide recommendations
+- Help improve overall security posture
+
+---
+
+## Summary
+
+- Offensive Security: Finds and exploits weaknesses
+- Defensive Security: Protects and defends systems
+- Security Analyst: Detects and investigates threats
+- Security Engineer: Builds and maintains secure systems
+- Penetration Tester: Tests security by simulating attacks
