@@ -1,0 +1,25 @@
+IP Address - internet prtocol
+used as a way to idenify a host on a network for a period of  time, where the ip is involved with another devices without the ip itself changing
+
+it contains 4 octets
+
+each summarizes the ip address on the network
+
+ip address can changed from device to device but can't be active at the same time if on the same network
+
+public - used to identify device on internet
+
+private - used to identify a device with other devices.
+--------------------------------------------------------------------------------------
+
+Mac addresses -  media access control
+
+12 character hex number(used in computing to show numbers)
+
+it splits into two and seperated by a colon
+
+the first si represent the company that made the network
+
+last six is just its own unique number.
+
+spoofing - when one uses another mac address in it attempts seem like its the address or so said pretending)
