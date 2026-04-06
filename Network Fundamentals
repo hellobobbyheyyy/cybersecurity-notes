@@ -56,10 +56,61 @@ MAC spoofing is the act of changing a device’s MAC address to impersonate anot
 ## Summary
 
 - IP Address: Identifies a device on a network for communication (logical)
--------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
 - MAC Address: Identifies the physical device on a network (hardware)
 - MAC Spoofing: Technique used to impersonate another device by altering the MAC address
+-------------------------------------------------------------------------------------------------------------------------------
+## LAN (Local Area Network)
+- A Local Area Network connects devices in a small area (home, school, office)
+- Devices can share files and internet
+
+## Star Topology
+- All devices connect to a central device (switch or hub)
+
+Advantages:
+- Reliable
+- Easy to add devices
+- One device failing does not affect others
+
+Disadvantages:
+- More expensive
+- If central device fails, network goes down
+
+## Bus Topology
+- All devices share one main cable (backbone)
+
+Advantages:
+- Cheap
+- Easy to set up
+
+Disadvantages:
+- Slower with more traffic
+- Hard to troubleshoot
+- If cable breaks, entire network fails
+
+## Ring Topology
+- Devices are connected in a loop
+
+Advantages:
+- Simple structure
+
+Disadvantages:
+- If one device fails, everything stops
+- Slower data transfer
+
+## Switch
+- Connects devices in a network
+- Sends data only to the correct device
+
+## Router
+- Connects different networks
+- Sends data between networks
+
+## My Understanding
+- LAN = small network
+- Star = central device
+- Bus = one cable
+- Ring = loop
+- Switch = directs traffic
+- Router = connects networks
+
+
