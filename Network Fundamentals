@@ -114,3 +114,63 @@ Disadvantages:
 - Router = connects networks
 
 
+
+
+-------------------------------------------------
+
+
+# ARP (Address Resolution Protocol)
+
+ARP is used to link an IP address to a MAC address on a network.
+
+Each device keeps a table called an ARP cache.
+This stores IP and MAC address mappings of other devices.
+
+## How ARP works
+
+When a device wants to communicate with another device:
+- It first checks its ARP cache
+- If the MAC address is not found, it sends a broadcast
+
+## ARP Request
+A message sent to all devices on the network:
+"Who has this IP address?"
+
+## ARP Reply
+The device with that IP responds:
+"I have that IP, here is my MAC address"
+
+## What happens next
+- The sender stores the mapping in its ARP cache
+- Future communication is faster
+
+## Key Points
+- Works only on a local network (LAN)
+- Uses broadcasting
+- Helps devices find each other
+--------------------------------------------------------------------
+
+# DHCP (Dynamic Host Configuration Protocol)
+
+DHCP automatically assigns IP addresses to devices on a network.
+
+## DHCP Process (DORA)
+
+## Discover
+The device asks:
+"Is there a DHCP server?"
+
+## Offer
+The server responds with an available IP address.
+
+## Request
+The device asks to use that IP address.
+
+## Acknowledge (ACK)
+The server confirms and allows the device to use the IP for a limited time (lease).
+
+## Key Points
+- IP addresses are temporary (leased)
+- No manual setup needed
+- Common in home and business networks
+
