@@ -174,3 +174,9 @@ The server confirms and allows the device to use the IP for a limited time (leas
 - No manual setup needed
 - Common in home and business networks
 
+Network address- identifies the start of the network and used to identify a networks existence
+Host address - ip address here is used to identify a device on the subnet
+
+default gateway - is a special address assigned to a device on the network that is capable of sending info to another network
+
+
