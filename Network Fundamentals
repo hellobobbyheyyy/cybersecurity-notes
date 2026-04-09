@@ -242,3 +242,11 @@ Three Way Handshake Steps
 
 # - if everything goes wrong there is RST, which is where the packet ends communication, this is a last resort and indicates there was a problem during the process.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+FTP -File Transfer Protocol - p21 - being able to downloadg files from a main place
+SSH - secure shell - p22 - used to securely login to a system through a text interface
+HTTP - Hypertext ransfer protocol - p80 - powers WWW,  browsers uses this to download images, text, and videos
+HTTPS - 443  - SAME AS ABOVE, but securely with encryption
+SMB - server message block - p445 -  like file transfer but, this allows you share devices like printers
+RDP -remote desktop protocol - p3389 - used as a extra measure of logging in a system using a visual desktop interface unlike that of a text based one.
