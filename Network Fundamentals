@@ -180,5 +180,65 @@ Host address - ip address here is used to identify a device on the subnet
 default gateway - is a special address assigned to a device on the network that is capable of sending info to another network
 
 ---------------------------------
+
+OSI - Open systems interconection model)
+
+- used in networking, gives a framework dictating hoW all network devices send, receive and interpret data.
+
+
 ICMP - internet control message protocol
 packets determine the performance of a connection between devices.
+
+NIC - Network Interface card - comes with unique mac address to idenify it.
+
+OSPF - Open shortest path first 
+RIP -  Routing information protocol - factors that decide what route is best bases on things
+shortest
+most reliable
+most fastest.
+----------------------------------------------------------------------------------------------------------
+
+
+TCP - tranmission control protocol - has a constant connection between two devices for amount of times it takes for the data to be sent and gotten
+it also has error checking - this make sures that info is sent in small chunks in the session layer
+
+Advantages - good accuracy with data, can synchronize two pdevices to prevent data flooding, has many processes for relieability 
+Disvantages - requires a good connection between two devices, if a chunk of data isn't being receiverd, the entire chunk may not be used.
+slow connection can slow down another devices as the connection be on hold receiving the computer
+tcp is wayy slower thAn udp because more work needs to be done.
+
+TCP - is used for file sharing, browsing or sending a email
+----------------------------------------------------------------------------------
+
+UDP - User Datagram Prostocol
+
+Avantages - Faster than TCP, UDP leaves application layer to decide if there is control over how quickly the packets are sent. does not reserve continuious connection unlike tcp does
+Disavantages - doesn't care if data is received 
+quite flexible to software devs
+means unstable connections result in terrible experience
+-------------------------------------------------------
+Time to live - fields a timer for packet to not clog up the network
+Checksum - gives intergrity checking for protocols like tcp/ip if data is changed, if diffirent it will corrupt
+Source address - ip address of device that the packet is being sent from, that way the data know where it needs to go back too.
+Destination address - adress the packet being sent so that data knows where travel next.
+------------------------------------------------------------------------------------------------
+Source port - opeend by sender to send to the tcp packet from, chosen randomly
+Destination port- value is port number that a application is running on remote host
+Source ip - ip address of the device sending the packet
+Destination ip - address of the device that the packet is going towards
+Sequence nunmber- when a connection happens, a piece of the data transfered gets a random number
+Ac number - next piec e of data will get the sequence number.
+Data - head is where thr data
+flag - determines how packet sohuld be done by device during the handshake process, based on the flag it make certain behaviours happen.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+Three Way Handshake Steps
+
+1.a messaged sent by syn is the first packet sent by the person, this is used to start up the connectiona and to match up the two devices
+2. the packet is sent by the receiving(server), to be aware of the matching attempt from the client
+3. acknowledgement packet can by used by the client or server to know that a wall of messages have been sucessfully received
+4. once a connection has established, it is sent via "data' message
+5. packet is used to finally(and neatly) close the connection once it has completed
+
+# - if everything goes wrong there is RST, which is where the packet ends communication, this is a last resort and indicates there was a problem during the process.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
