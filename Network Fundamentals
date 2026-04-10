@@ -250,3 +250,22 @@ HTTP - Hypertext ransfer protocol - p80 - powers WWW,  browsers uses this to dow
 HTTPS - 443  - SAME AS ABOVE, but securely with encryption
 SMB - server message block - p445 -  like file transfer but, this allows you share devices like printers
 RDP -remote desktop protocol - p3389 - used as a extra measure of logging in a system using a visual desktop interface unlike that of a text based one.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fire wall - security tool ,hardware or sofware thats used to filter network traffic
+VPN - Virtual Private Network
+
+offer privacy - uses encryption to protect data, only understands between devices it was sent from and wheres its going
+good for when in places with public wifi, using a vpn would be good
+
+offer anonymityy -  level of anoymity vpn gives is as much as other devices on the network.
+-------------------------------------------------------------------------------------------------------------
+
+PPP - Used by PPTP allows sfor authentication and gives encryption of data, technology is not able to leave the network on its own
+
+PPTP - point to point tunneling protocol - techonlogy that allows data from ppp to travel and leave a network
+very easy to set up, supported by many devices, it is weakly encrypted in comparisions
+
+Internet Protocol securtity(IPsec) encrypts data using the ip- internet protocol
+------------------------------------------------------------------------------------
+VLAN - virtual local area network - allows for exact devices with a network be virtually split up, this means they will benefit from things like internet connection but treated seperately
