@@ -1,1 +1,77 @@
+Scheme - tells on what protocl to use for accessing the resource like http, https, and ftp
 
+User - some services need authentication to log in, you can put a user and a password into the url to login
+
+Host - domain name or that of the ip address of the server
+port - what you are conecting too. 80 for http and 443 for https
+
+path- file location of the thing you are trying to get
+
+query string - extra bits of info that sent to the requested path
+
+fragment - reerence to location on the actual page requested, commonly used for pages with long content and have a certain part of he page directly linked to it
+----------------------------------------------------------------------------------
+
+get - used for getting info
+post - used for submiting data to web server posiblly making new records
+put - for submiting data to a web server to update info
+
+delete - used for deleting info from a web server
+
+----------------------------------------------------------------
+
+100-199 info respone- sent to the client of whent he first part of their request has been accepted and they will continue sending rest of their request
+
+200-299 sucess - range of status code is used to tell client their request was good
+
+
+300-399 redirection - used to redirect clients request to another resource, either to be a diffirent webpage or diff all together
+
+400-499 client errors -  used to inform the client that there was a error with their request
+
+500-599 server errors - used for error happening on server side of tings and is used to indicate a big problem with the server handling the request
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+200 - ok - request was completed sucessfully
+
+201 - created - resource has been created
+
+301 - moved forever - redirects client browser to a new webpage or tels search engine that page has gone elsewhere.
+
+302 - found - like above eramanent redirect, only a temporary change, it ma change again in the future
+
+400 - BAD request - tells the browser that somthing has gone wrong or missing in the request, it can be sometimes used if the web server is getting requested, 
+with a expected thing that the person didn't received
+
+401 - not authorised - currently not allowed to view untill you have the permissions with the web apps, most common with a user and a password
+
+403 - forbidden - not having permission to view he resource, both logged in and logged out
+
+405 - method not alowed - resoruce does not allow this method
+
+404 - page not found - resource requested doesn't exist
+
+500 -internal service error - server has ecountered some kind of error within the request that doesn't know how to be handle properly
+
+503 - service unavailable - server cannot handle your request, as it eithers overloaded for maintenance
+------------------------------------------------------------------------------------------------------
+Host - some web servers, host many websites so that by giving the host headers, you will which one is reqired, if any other case you will
+get the defalt
+
+user-agent - the browsers software and version nmber, by having the web server know about the sofware, it helps format the website properly for the browser
+and some aspects of HTML, JS, CSS
+
+content length -  content length tells server how much data is expected
+
+Accept encoding - tells the web what tpe of compression methods and browser support, making the data smaller by size and chunks, for transmitting over the internet.
+
+cookie -data sent to the server to remember info.
+-----------------------------------------------------------------------------
+
+set cookie -  info to store which get sents to the web server
+cache control - how the content is to be stored for. in the cache before it request it again
+
+content type - tells the client what type of data is being returned - HTML, CSS JS, images ,PDF, ETC by using the browser it knows how to process the data.
+
+content encoding -  what method has been used to compress the data to make it smaller when sending on the internet
